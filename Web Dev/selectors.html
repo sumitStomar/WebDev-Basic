@@ -29,10 +29,18 @@
       h2,h3,h4{
           color: green;
       }
+      /* decendant selector */
+      div p span{
+        color: lightcoral;
+      } 
+
+      /* children selector */
+      div>p>span{
+        color: black;
+      }
     </style>
   </head>
-  <body></body>
-</html>
+  <body>
 
 <!-- class selector -->
 <h1>Class Selectors</h1>
@@ -72,3 +80,32 @@
   numquam iusto repudiandae reiciendis quidem ullam et officiis neque dolore
   rem, at, ea, necessitatibus magni a ipsa delectus! Ab.
 <h4>
+
+           <!-- combinators selector  -->
+
+ <!-- 1. Descendant Selector -->
+ <div>
+     <p>
+         <span>
+             I am child
+         </span>
+        </p>
+        </div>
+        <div>
+     <span>
+         <p>
+             I am Descendant
+     </>
+         </span>
+ </div>
+
+
+
+
+
+
+
+</body>
+</html>
+
+
