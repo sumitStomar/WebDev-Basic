@@ -1,17 +1,41 @@
 li {
   list-style: none;
 }
-.navbar>nav{
-  display: flex;
+li{
+  padding-right: 15px;
 }
+h1{
+  font-size: 1rem;
+}
+*{
+  background-color: lavender;
+}
+
+.navbar>nav {
+
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1em;
+  padding-left: 10px;
+  font-family: fantasy;
+}
+
 ul{
   display: flex;
 }
-.welcomeback{
+.imagephoto{
     height: 900px;
     width: 1400px;
 }
 .footer{
     background-color: black;
     color: white;
+    text-align: center;
+   
+}
+.container{
+  display: flex;
+  justify-content: space-evenly;
 }
