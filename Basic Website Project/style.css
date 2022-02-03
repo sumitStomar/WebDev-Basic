@@ -2,23 +2,18 @@ li {
   list-style: none;
 }
 li{
-  padding-right: 15px;
+  padding-left: 2rem;
 }
 h1{
   font-size: 1rem;
 }
-*{
-  background-color: lavender;
-}
+
 
 .navbar>nav {
 
-  color: white;
-  padding: 15px;
+  color: black;
   display: flex;
   justify-content: space-between;
-  font-size: 1em;
-  padding-left: 10px;
   font-family: fantasy;
 }
 
@@ -26,16 +21,24 @@ ul{
   display: flex;
 }
 .imagephoto{
-    height: 900px;
-    width: 1400px;
+    height: 140vh;
+    width: 95vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+.skills{
+  display: flex;
+}
+.skills>div{
+  text-align: center;
+  margin-top: 2rem;
 }
 .footer{
     background-color: black;
     color: white;
-    text-align: center;
-   
+    text-align: center;  
 }
-.container{
-  display: flex;
-  justify-content: space-evenly;
+.footer>p{
+  font-size: 25px;
 }
+
