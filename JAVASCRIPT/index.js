@@ -86,4 +86,15 @@ for(var i =0; i < num; i++){
 }
 }
 
+//Constant Keyword
+//na hi redeclare na reinitialize
+const a =2;
+console.log(a);
+
+a = 5; // TypeError: Assignment to constant variable.
+
+
+
+
+
 
