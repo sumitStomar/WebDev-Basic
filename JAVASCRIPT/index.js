@@ -38,9 +38,18 @@ console.log(t);
 console.log(f);
 
 //String
-//    ' '      ,      " "     ,    `` 
+//    ' '      ,      " "     ,   ` ` 
 //single quotes, double quotes, backtick
 var str = 'a';
 console.log(typeof str);
-str = "How you doin ?"
+str = "How you doin ?\n i am fine";
+//backslash n("\n")
 console.log(str);
+
+var b = `enjoying the course
+what are u doing`;
+console.log(b);
+
+var num = 4500;
+// ${}
+console.log(`half of ${num} is ${num/2}`);
