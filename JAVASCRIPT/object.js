@@ -5,7 +5,7 @@
 
 // //person object
 // let person = {
-//   //key(property,method()) : value
+//  //key(property,method()) : value
 //   name: "Abhishek",
 //   age: 28,
 //   phone: 9999999999,
